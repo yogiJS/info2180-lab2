@@ -37,6 +37,9 @@ header{
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 5;
+    padding-top: 10px;
+    margin: auto;
+    
     
 }
 
@@ -51,12 +54,19 @@ h2{
 }
 .authDetails{
     color:#718096;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+.authDetails1{
+    color:#718096;
+    margin-top: -30px;
 }
 .beach{
    
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-bottom: -20px;
 
 }
 .beachA{
@@ -72,20 +82,7 @@ h2{
     margin: 10px;
 
 }
-a{
-    color:#4299E1;
-}
 
-.about{
-    background-color: #E2E8F0;
-    padding-left: 15px;
-    padding-top: 15px;
-    height: 180px;
-    width: 300px;
-    word-wrap: break-word;
-    
-
-}
 .article1{
     width: 870px;
     height: 300px;
@@ -93,18 +90,38 @@ a{
     border-bottom-color: #E2E8F0;
     border-bottom-width: 3px;
     word-wrap: break-word;
+    margin-top: -20px;
+    
 }
 .article2{
     width: 870px;
     height: 300px;
     word-wrap: break-word;
 }
+
+
+
+.about{
+    background-color: #E2E8F0;
+    padding: 15px 15px 15px 15px;
+    height: 180px;
+    width: 300px;
+    word-wrap: break-word;
+    
+
+}
+
+
 .abouth{
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
+.arc{
+    color:  #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .smh{
     color:  #48BB78;
@@ -117,11 +134,11 @@ a{
     color: #4299E1;
 }
 
-
-.arc{
-    color:  #48BB78;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+a{
+    color:#4299E1;
 }
+
+
 
 footer{
     height: 50px;
