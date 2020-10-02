@@ -49,8 +49,8 @@ h2{
     font-size: 32px;
     color: #48BB78;
 }
-#authDetails{
-    color: #718096;
+.authDetails{
+    color:#718096;
 }
 .beach{
    
@@ -71,6 +71,9 @@ h2{
     float: left;
     margin: 10px;
 
+}
+a{
+    color:#4299E1;
 }
 
 .about{
